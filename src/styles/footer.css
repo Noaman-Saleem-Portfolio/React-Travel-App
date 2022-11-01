@@ -1,0 +1,19 @@
+.footer {
+    color: #fff;
+    background-color: #26313b;
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.footer .icon {
+    color: #fff;
+    margin: 0.5rem;
+    font-size: 3.6rem;
+}
+
+.footer p {
+    padding-bottom: 1rem;
+    margin-bottom: 0px;
+    /* background-color: yellowgreen; */
+}

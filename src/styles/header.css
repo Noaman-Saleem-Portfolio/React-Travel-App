@@ -1,0 +1,90 @@
+/*############## header ##########################*/
+.header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/header-image.jpg");
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*############################# navbar ####################################*/
+/* .header .logo,.header .navbar a{
+    color: white;
+} */
+
+.navbar {
+    padding: 1rem;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-items {
+    float: right;
+    margin-top: 1rem;
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: #f4f4f4;
+}
+
+.navbar a {
+    padding-bottom: 1rem;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #fff;
+    /* background-color: yellowgreen; */
+}
+
+/* .header .navbar{
+    border: 5px solid white;
+} */
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* not working */
+/* .header .clear-fix{
+    height: 100px;
+    background-color: aquamarine;
+    clear: both;
+} */
+
+.nav-item {
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+/*################# header-content #################*/
+
+.header-content {
+    /* border: 1px solid #fff; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.header .header-content h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header .header-content p {
+    text-transform: uppercase;
+}
+
+.header,
+.header-content a:hover {
+    background-color: #f0ebeccb;
+}

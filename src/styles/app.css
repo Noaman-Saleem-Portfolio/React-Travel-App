@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* ############## HTML ############################ */
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+/*########### universal styles #############*/
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+li {
+    font-size: 1.6rem;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+/* ########## Utility Classes ############ */
+.lg-heading {
+    font-size: 3.5rem;
+}
+
+.md-heading {
+    font-size: 2.2rem;
+}
+
+.text-red {
+    color: #e63946;
+}
+
+.text-light {
+    color: #f4f4f4;
+}
+
+.text-black {
+    color: #333333;
+}
+
+.text-grey {
+    color: #555555;
+}
+
+.bg-dark {
+    background-color: #26313b;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.0em 1.8em;
+    margin: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #fff;
+    font-size: 1.3rem;
+    border-radius: 10em;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border: 1px solid red;
+    font-size: 1.4rem;
+    /* padding: 1.0em 1.8em; */
+    border-radius: 10em;
+}

@@ -1,0 +1,108 @@
+/* ###################  Contact US Page ################## */
+section.contact {
+    padding: 8rem 0px;
+    background: #dfdbdb;
+}
+
+.contact-boxes {
+    /* border: 2px solid green; */
+
+
+}
+
+.contact .contact-box1 {
+    /* border: 1px dotted red; */
+    float: left;
+    width: 48%;
+    background: #fff;
+    padding: 2rem 0.9rem;
+    height: 760px;
+}
+
+.contact .contact-box2 {
+    /* border: 1px dotted red; */
+    float: right;
+    width: 48%;
+    background: #fff;
+    padding: 2rem 0.9rem;
+    height: 760px;
+}
+
+.contact-boxes::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* .dummy{
+    font-size: 4rem;
+    color: yellowgreen;
+} */
+section.contact .contact-boxes .contact-box1 i {
+    display: inline-block;
+    padding-right: 0.5rem;
+}
+
+section.contact .contact-boxes .contact-box1 h2 {
+    display: inline-block;
+}
+
+section.contact .contact-boxes .contact-box1 img {
+    max-width: 90%;
+    min-height: 40rem;
+    object-fit: cover;
+    object-position: right;
+}
+
+section.contact .contact-boxes .contact-box2 h2::after {
+    content: "";
+    display: block;
+    border: 3px solid #e35d5b;
+}
+
+section.contact label {
+    display: block;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #555555;
+    /* background-color: yellowgreen; */
+}
+
+section.contact label::after {
+    content: "*";
+    color: #e53935;
+}
+
+section.contact input {
+    /* display: block; */
+    width: 100%;
+    padding: 0.7rem 0.6rem;
+
+    /* background-color: yellowgreen; */
+}
+
+section.contact textarea {
+    /* display: block; */
+    width: 100%;
+    padding: 0.7rem 0.6rem;
+    height: 24rem;
+
+    /* background-color: yellowgreen; */
+}
+
+section.contact .form-group {
+    margin-bottom: 1rem;
+}
+
+section.contact .contact-box2 .contact-form .submit-btn {
+    display: block;
+    text-transform: uppercase;
+    padding: 0.8rem 3.7rem;
+    background: #e35d5b;
+    color: #fff;
+    border: none;
+    /* width: 30%; */
+    margin: 0px auto;
+    cursor: pointer;
+    outline: none;
+}
